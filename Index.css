@@ -1,0 +1,15 @@
+* {
+    background-color: rgb(0, 0, 0);
+    color: rgb(38, 248, 255);
+}
+
+#Generate{
+    background-color: gray;
+}
+p {
+    background-color: aqua;
+    color: black;
+}
+li {
+    text-decoration: none;
+}
