@@ -1,0 +1,64 @@
+* {
+    background-color: rgb(15, 15, 50);
+    color: aliceblue;
+}
+
+.Generate {
+    width: 90%;
+    padding: 10px 0px;
+}
+
+#Generate {
+    background-color: transparent;
+    color: aliceblue;
+    border: solid 2px;
+    border-color: transparent;
+    margin-left: 50%;
+}
+#Generate:hover {
+    transition: 0.5s;
+    border: solid aqua 2px;
+    border-radius: 20%;
+    width: 100px;
+}
+
+button {
+    background-color: gray;
+    color: black;
+    cursor: pointer;
+}
+#more {
+    color: blue;
+    background-color: transparent;
+    border: none;
+}
+
+.OptionsMain {
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    border-radius: 15px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+#expandableDiv {
+    overflow: hidden;
+    transition: height 0.5s ease;
+}
+.Options {
+    text-align: center;
+    padding: 15px;
+    background-color: gray;
+}
+p {
+    background-color: black;
+    color: yellow;
+    text-align: center;
+}
+input {
+    background-color: rgb(163, 162, 162);
+    text-align: center;
+}
+label {
+    font-size: 10px;
+}
