@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="PassGen.css"> <!-- Normal Text Style -->
+    <link rel="stylesheet" href="GenerateButton.css"> 
+
+    <meta name="viewport" content="width=device-width">
+    <title>Password Generator</title>
+</head>
+
+        <div class="GeneratePasswordButton">
+            <button id="Generate" onclick="generateWords()"><span>Generate</span></button>
+        </div>
+
+    <body class="PasswordOptions">
+
+      <div>
+        <header>Words</header>
+        <ul>
+
+          <li>  
+            <label>
+                <input type="number" value="4" id="WordAmount">Amount of Words
+            </label>
+          </li>
+
+          <li>
+            <label>
+                <input type="range" min="4" max="12" id="WordsLength">
+            </label>
+          </li>
+
+          <li>
+            <label>
+                <input type="checkbox" id="Capital">Capital Letter
+            </label>
+          </li>
+
+          <br>
+
+          <li>
+            <label>
+                <input type="checkbox" id="SpecialCharacters">Special Characters
+            </label>
+          </li>
+
+          <li>
+            <label>
+                <input type="checkbox" id="Comma">Include a comma
+            </label>
+          </li>
+
+          <li>
+            <label>
+                <input type="checkbox" id="Numbers">Numbers
+            </label>
+          </li>
+
+        </div>
+
+        <p id="result"></p>
+        <!-- <button id="CopyText">Copy Text</button> -->
+        <script src="PassGen.js"></script>
+
+    </body>
+    
+</html>
