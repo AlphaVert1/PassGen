@@ -1,0 +1,46 @@
+* {
+    width: auto;
+    height: auto;
+    background-color: black;
+}
+
+#WordAmount {
+    width: 50px;
+    color: white;
+}
+
+ul {
+    padding-left: 0;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    position: relative;
+    list-style: none;
+    padding: 2px;
+    background-color: wheat;
+}
+
+label {
+    background-color: transparent;
+}
+
+.PasswordOptions {
+    width: auto;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+span {
+    background-color: rgb(115, 115, 115);
+}
+
+p {
+    color: white;
+    text-align: center;
+}
+#CopyText {
+    color: aqua;
+}
