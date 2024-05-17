@@ -15,11 +15,16 @@ ul {
 }
 
 li {
-    display: inline;
+    display: flex;
+    flex-direction: column;
     position: relative;
     list-style: none;
-    padding: 2px;
+    padding: 1px;
     background-color: wheat;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 1px;
+    border-radius: 25px;
 }
 
 label {
@@ -40,6 +45,7 @@ span {
 p {
     color: white;
     text-align: center;
+    font-size: 22.5px;
 }
 #CopyText {
     color: aqua;
