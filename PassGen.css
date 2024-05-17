@@ -1,0 +1,52 @@
+* {
+    width: auto;
+    height: auto;
+    background-color: black;
+}
+
+#WordAmount {
+    width: 50px;
+    color: white;
+}
+
+ul {
+    padding-left: 0;
+    text-align: center;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    list-style: none;
+    padding: 1px;
+    background-color: wheat;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 1px;
+    border-radius: 25px;
+}
+
+label {
+    background-color: transparent;
+}
+
+.PasswordOptions {
+    width: auto;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+span {
+    background-color: rgb(115, 115, 115);
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-size: 22.5px;
+}
+#CopyText {
+    color: aqua;
+}
